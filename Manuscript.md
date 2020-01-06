@@ -83,25 +83,45 @@ In terms of setting up a functional circuit, AWCL/R olfactory neurons work coope
 </p>
 
 #### Ion channels for cells present at 400 minutes
-A total of 87 new neurons differentiate between the 300 and 400 minute sampling intervals. Table 1 shows (by cell family) all new cells that occur in the 400 minute sampling interval that are not present in the 300 minutes sampling interval. The most abundant newly-differentiated neuronal families include members of the AV family (14 cells), RI family (9 cells), RM family (7 cells), and UR family (6 cells). 
-
-Our 400 minute sampling interval also reveals the diversity of timing among inner labial (IL) neurons. For example, IL2 neurons are born at 290 minutes, whereas IL1 neurons appear at 400 minutes of embryogenesis. Despite this, each pair of neurons are cholinergic polymodal neurons (Pereira et.al, 2015) that have multiple mechanosensory functions (Goodman, 2006). Yet according to WormBase, only IL1 expresses DELM-1 and DELM-2 sodium channels. While expression of these channels in IL1 neurons enables mechanosensation at the organismal level, mechanosensation only becomes important later in development (post-hatch). As mentioned during the 280 minute analysis, we see neurons that form a functional circuit emerge well before the associated behaviors themselves. 
-
-#### Gene expression at 250 minutes
-Before moving on to the origins of functional subnetworks, let us examine the developmental source of neurons using a lineage-resolved single cell molecular atlas called VisCello (Packer et.al, 2019). Figure 4 demonstrates these cell type distinctions, as defined by single-cell transcriptomics signatures of each cell identity. These visualizations demonstrate both the nature and shape of this variation. One main finding of this approach is that the differentiation process decouples the identity of developmental lineage from the transcriptional activity of terminally-differentiated cells (Packer et.al, 2019). In other words, cells from identical developmental sublineages can acquire divergent transcriptional profiles upon differentiation.
-
+A total of 87 new neurons differentiate between the 300 and 400 minute sampling intervals. Table 1 shows (by cell family) all new cells that occur in the 400 minute sampling interval that are not present in the 300 minutes sampling interval. The most abundant newly-differentiated neuronal families include members of the AV family (14 cells), RI family (9 cells), RM family (7 cells), and UR family (6 cells). Our 400 minute sampling interval also reveals the diversity of timing among inner labial (IL) neurons. For example, IL2 neurons are born at 290 minutes, whereas IL1 neurons appear at 400 minutes of embryogenesis. Despite this, each pair of neurons are cholinergic polymodal neurons (Pereira et.al, 2015) that have multiple mechanosensory functions (Goodman, 2006). Yet according to WormBase, only IL1 expresses DELM-1 and DELM-2 sodium channels. While expression of these channels in IL1 neurons enables mechanosensation at the organismal level, mechanosensation only becomes important later in development (post-hatch). As mentioned during the 280 minute analysis, we see neurons that form a functional circuit emerge well before the associated behaviors themselves. 
 
 <b>Table 1.</b> Schematic of first-mover dynamics. A: a simple relationship between endogenous processes and inputs, B: a potential first-mover strategy for intrinsic circuits (time of birth in hypothetical minutes), C: transformation from circles (that constitute networks) to boxes.
 
+Cell Family  |  Number |
+-------------|---------|
+AF  |  2  |
+AI  |  6  |
+AL  |  1  |
+AS  |  10  |
+AU  |  2  |
+AV  |  14  |
+AW  |  2  |
+CEP  |  3  |
+DV  |  3  |
+IL1  |  4  |
+IL2  |  1  |
+LU  |  2  |
+OLQ  |  2  |
+PD  |  1  |
+PH  |  2  |
+PV  |  5  |
+RI  |  9  |
+RM  |  7  |
+SI  |  1  |
+SM  |  4  |
+UR  |  6  |
 
-#### Timing of NSY-5 subnetwork
-Due to a number of functional attributes, the innexin-dependent NSY-5 network is worth examining in more detail. As opposed to our time-threshold networks, neurons included in this network are defined by their expression of NSY-5 (Chuang et.al, 2007). The first neurons in this network appear at 280 minutes, and continue to appear until after 400 minutes post-fertilization. At least one set of neurons in this network (AWCL/R, or Amphid Wing C cells) are influenced by calcium influx through voltage-gated calcium channels (Hseih et.al 2014). In particular, the NSY-5 network is required for left/right gene expression asymmetry in AWC neurons. Overall, this network consists mainly of cells associated with Amphid Sheath and Neuropil, or function as Interneurons and Sensory Neurons. While the left-right asymmetry of cell differentiation is somewhat uncommon (about 1/3rd of all terminally-differentiatied cells) in _C. elegans_, functional asymmetry for properties such as gene expression is much more common (Hobert et.al, 2002). Among AWC neurons, functional asymmetry is much more common than birth asymmetry, which is greater than 50 minutes in only two pairs of NSY-5 cells (ASHL/R and PVQL/R). By comparison, symmetric induction of NSY-5 in AWC neurons occurs 150 minutes after their birth time, which is well after birth time but still falls within pre-hatch development (Taylor et.al, 2010). 
+#### Gene expression at 250 minutes
+Before moving on to the origins of functional subnetworks, let us examine the developmental source of neurons using a lineage-resolved single cell molecular atlas called VisCello (Packer et.al, 2019). Figure 4 demonstrates these cell type distinctions, as defined by single-cell transcriptomics signatures of each cell identity. These visualizations demonstrate both the nature and shape of this variation. One main finding of this approach is that the differentiation process decouples the identity of developmental lineage from the transcriptional activity of terminally-differentiated cells (Packer et.al, 2019). In other words, cells from identical developmental sublineages can acquire divergent transcriptional profiles upon differentiation.
 
 <p align="center">
   <img width="400" height="400" src="https://github.com/devoworm/Raising-the-Worm-Brain/blob/master/Figures/Figure%204A.png"><BR>
   <img width="400" height="400" src="https://github.com/devoworm/Raising-the-Worm-Brain/blob/master/Figures/Figure%204B.png"><BR>
   <b>Figure 4.</b> Developmental cells born at 250 minutes that contribute to all future cell types and tissues (A) and neurons and glia (B) more specifically. v1 and v2 represent the dimensions of a two-dimensional projection of the source data. Distance on these manifolds are defined by single-cell transcriptional profiling of all cells.
 </p>
+
+#### Timing of NSY-5 subnetwork
+Due to a number of functional attributes, the innexin-dependent NSY-5 network is worth examining in more detail. As opposed to our time-threshold networks, neurons included in this network are defined by their expression of NSY-5 (Chuang et.al, 2007). The first neurons in this network appear at 280 minutes, and continue to appear until after 400 minutes post-fertilization. At least one set of neurons in this network (AWCL/R, or Amphid Wing C cells) are influenced by calcium influx through voltage-gated calcium channels (Hseih et.al 2014). In particular, the NSY-5 network is required for left/right gene expression asymmetry in AWC neurons. Overall, this network consists mainly of cells associated with Amphid Sheath and Neuropil, or function as Interneurons and Sensory Neurons. While the left-right asymmetry of cell differentiation is somewhat uncommon (about 1/3rd of all terminally-differentiatied cells) in _C. elegans_, functional asymmetry for properties such as gene expression is much more common (Hobert et.al, 2002). Among AWC neurons, functional asymmetry is much more common than birth asymmetry, which is greater than 50 minutes in only two pairs of NSY-5 cells (ASHL/R and PVQL/R). By comparison, symmetric induction of NSY-5 in AWC neurons occurs 150 minutes after their birth time, which is well after birth time but still falls within pre-hatch development (Taylor et.al, 2010). 
   
 #### Potassium channels in development
 Another set of developmental events that are a critical component of neuronal function and survival to adulthood is the expression of potassium (K<sup>+</sup>) channels. While K+ channels are expressed in every adult _C. elegans_ cell, neurons express the 6TM, voltage-gated channels Kv1, Kv2, Kv3, and Kv4. The existence of potassium channel mutant phenotypes demonstrates that these channels allow for the complex electrophysiology that drives neuronal activity (Salkoff et.al, 2005). Voltage-gated channels not only allow for the generation of action potentials (Mellem et.al, 2008), but the generation of spontaneous electrical activity as well.
