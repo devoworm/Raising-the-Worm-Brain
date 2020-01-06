@@ -21,7 +21,7 @@ Even though _C. elegans_ has a deterministic developmental trajectory with respe
 
 <p align="center">
   <img width="256" height="227" src=""><BR>
-  __Figure 1.__ Developmental precursors to the first connectome cells to terminally-differentiate in the embryo. Data are arranged as a histogram with bins of size 8. Red, Orange, and Gray bars are bins of particular interest to our sampling scheme.
+  <b>Figure 1.</b> Developmental precursors to the first connectome cells to terminally-differentiate in the embryo. Data are arranged as a histogram with bins of size 8. Red, Orange, and Gray bars are bins of particular interest to our sampling scheme.
 </p>
   
 The aggregate measure shown in Figure 1 is consistent with the finding that cellular specialization is coordinated with rounds of cell division, although this does not result from a specific cell division-related mechanism (Alberts et.al, 2002). In conceptually separating the functional networks from structural networks, we find that different neuronal properties can provide alternate views of the developing connectome. For example, transcription factors define C. elegans neurons more distinctly than the 118 neuron classes defined by 118 neurons classes based on anatomical and synaptic connectivity (Hobert, 2016). Nevertheless, we do see that the first few neurons and major expansion in the number of neurons occur immediately after the first two bursts of developmental cell proliferation.
@@ -58,7 +58,7 @@ For the 280 minute connectome, there are five terminally-differentiated neurons:
 
 <p align="center">
   <img width="256" height="227" src=""><BR>
-  __Figure 2.__ Timeline that shows major events in <i>C. elegans</i> embryogenesis from fertilization (0 minutes) to hatch from the egg (800 minutes).
+  <b>Figure 2.</b> Timeline that shows major events in <i>C. elegans</i> embryogenesis from fertilization (0 minutes) to hatch from the egg (800 minutes).
 </p>
   
 ADFL and ADFR have been identified as chemosensory sheath cells that detect volatile compounds (Bargmann, 2006). Looking back at Figure 2, this represents the emergence of components in a functional circuit well before there any environmental or activity-dependent signals to shape their fate. As harbingers of neuronal function, AWBL and AWBL are also important for their role in the NSY-5 network. NSY-5, a protein resulting from expression of the inx-19 gene, forms a gap junction network during embryogenesis with 32 other cells in the nervous system (Chuang et.al, 2007). About half of these cells share the same lineage, and the NSY-5 network as a whole is required for stochastic, asymmetric gene expression (Alqadah et.al, 2016). Aside from the potential importance of this subnetwork for regulation of the developmental connectome, WormBase associates inx-19 expression is associated with calcium channel inhibition.  
@@ -75,7 +75,7 @@ In terms of setting up a functional circuit, AWCL/R olfactory neurons work coope
 
 <p align="center">
   <img width="256" height="227" src=""><BR>
-  __Figure 3.__ Distribution of cell types (based on families in Alicea et.al, 2019) born at 290 minutes.
+  <b>Figure 3.</b> Distribution of cell types (based on families in Alicea et.al, 2019) born at 290 minutes.
 </p>
 
 #### Ion channels for cells present at 400 minutes
@@ -87,7 +87,7 @@ Our 400 minute sampling interval also reveals the diversity of timing among inne
 Before moving on to the origins of functional subnetworks, let us examine the developmental source of neurons using a lineage-resolved single cell molecular atlas called VisCello (Packer et.al, 2019). Figure 4 demonstrates these cell type distinctions, as defined by single-cell transcriptomics signatures of each cell identity. These visualizations demonstrate both the nature and shape of this variation. One main finding of this approach is that the differentiation process decouples the identity of developmental lineage from the transcriptional activity of terminally-differentiated cells (Packer et.al, 2019). In other words, cells from identical developmental sublineages can acquire divergent transcriptional profiles upon differentiation.
 
 
-__Table 1.__ Schematic of first-mover dynamics. A: a simple relationship between endogenous processes and inputs, B: a potential first-mover strategy for intrinsic circuits (time of birth in hypothetical minutes), C: transformation from circles (that constitute networks) to boxes.
+<b>Table 1.</b> Schematic of first-mover dynamics. A: a simple relationship between endogenous processes and inputs, B: a potential first-mover strategy for intrinsic circuits (time of birth in hypothetical minutes), C: transformation from circles (that constitute networks) to boxes.
 
 
 #### Timing of NSY-5 subnetwork
@@ -95,11 +95,11 @@ Due to a number of functional attributes, the innexin-dependent NSY-5 network is
 
 <p align="center">
   <img width="256" height="227" src=""><BR>
-  __Figure 4.__ Developmental cells born at 250 minutes that contribute to all future cell types and tissues (A) and neurons and glia (B) more specifically. v1 and v2 represent the dimensions of a two-dimensional projection of the source data. Distance on these manifolds are defined by single-cell transcriptional profiling of all cells.
+  <b>Figure 4.</b> Developmental cells born at 250 minutes that contribute to all future cell types and tissues (A) and neurons and glia (B) more specifically. v1 and v2 represent the dimensions of a two-dimensional projection of the source data. Distance on these manifolds are defined by single-cell transcriptional profiling of all cells.
 </p>
   
 
-__Table 2.__ Cells in the NSY-5 network. Network members described by Chuang et.al (2007). 
+<b>Table 2.</b> Cells in the NSY-5 network. Network members described by Chuang et.al (2007). 
 
   
 #### Potassium channels in development
@@ -124,7 +124,7 @@ The first mover model describes neurons that emerge and connect in an expanding 
 
 <p align="center">
   <img width="256" height="227" src=""><BR>
-  __Figure 5.__ Schematic of first-mover dynamics. A: a simple relationship between endogenous processes and inputs, B: a potential first-mover strategy for intrinsic circuits (time of birth in hypothetical minutes), C: transformation from circles (that constitute networks) to boxes.
+  <b>Figure 5.</b> Schematic of first-mover dynamics. A: a simple relationship between endogenous processes and inputs, B: a potential first-mover strategy for intrinsic circuits (time of birth in hypothetical minutes), C: transformation from circles (that constitute networks) to boxes.
 </p>
   
 In a sequential game, initial moves and their associated payoffs provide context for endogenous behavior in newly-connected cells. This allows neurons to be reorganized in terms of function rather than anatomical structure. Over time, as newer cells are integrated into the network, subsequent moves further constrain the function of the intrinsic circuit until all cells are connected. However, new inputs from older cells can disrupt this first-mover advantage by re-establishing the role of each cell in the new circuit.
@@ -143,10 +143,10 @@ There are several limitations of this approach. The first limitation is the use 
 #### Broader Implications
 There are several broader implications to this work. The first is to flesh out a model of explicit steps in relation to the development process and with respect to an emerging connectome. The second involves informing developmental models of nervous system function. Mapping ion channel and electrical function onto connectome architectures is useful for modeling function during the formation of the connectome. This provides a basis for understanding the emergence of specific behaviors and behavioral circuits. 
 
-As the C. elegans connectome is considered analytically tractable, we hope that the extraction and analysis of neuronal populations at different points in embryonic development can be applied to other small connectomes (<1000 neurons). The polycheate (Windoffer & Westheide, 1988; Hochberg, 2009) and the larval tunicate Ciona intestinalis (Bezares-Calderon & Jekely, 2016; Ryan et.al, 2016) are two such examples. The tunicate model is especially interesting, as it provides an opportunity to study asymmetry. Yet we also see how the emergence of behaviors are context-specific, as swimming in C. intestinalis (Zegal et.al, 2006) emerges in a way that is fundamentally different from behaviors such as pharyngeal pumping in C. elegans.
+As the _C. elegans_ connectome is considered analytically tractable, we hope that the extraction and analysis of neuronal populations at different points in embryonic development can be applied to other small connectomes (<1000 neurons). The polycheate (Windoffer & Westheide, 1988; Hochberg, 2009) and the larval tunicate Ciona intestinalis (Bezares-Calderon & Jekely, 2016; Ryan et.al, 2016) are two such examples. The tunicate model is especially interesting, as it provides an opportunity to study asymmetry. Yet we also see how the emergence of behaviors are context-specific, as swimming in _C. intestinalis_ (Zegal et.al, 2006) emerges in a way that is fundamentally different from behaviors such as pharyngeal pumping in _C. elegans_.
 
 #### Development and Neuronal Criticality
-Considering neuronal criticality more broadly, Towlson et.al (2013) have defined rich club neurons in the adult phenotype as highly-connected neurons and serving a special functional role due to their ability to connect different modules. One question for future research is whether or not the rich club originates from the rules of preferential attachment (Barabasi & Albert, 1999), or if their functional attributes make them prone to being highly-connected. As they tend to be born between 290 and 350 minutes of development (Alicea, 2018), birth order is not the preferential criterion for this functional role. In any case, we can observe the signature of a small-world network (Watts & Strogatz, 1998) in both the C. elegans and C. intestinalis larval connectomes (Bezares-Calderon & Jekely, 2016). This suggests whatever interactions are determining critical structure is common across developing small connectomes.
+Considering neuronal criticality more broadly, Towlson et.al (2013) have defined rich club neurons in the adult phenotype as highly-connected neurons and serving a special functional role due to their ability to connect different modules. One question for future research is whether or not the rich club originates from the rules of preferential attachment (Barabasi & Albert, 1999), or if their functional attributes make them prone to being highly-connected. As they tend to be born between 290 and 350 minutes of development (Alicea, 2018), birth order is not the preferential criterion for this functional role. In any case, we can observe the signature of a small-world network (Watts & Strogatz, 1998) in both the _C. elegans_ and _C. intestinalis_ larval connectomes (Bezares-Calderon & Jekely, 2016). This suggests whatever interactions are determining critical structure is common across developing small connectomes.
 
 #### From Embryogenesis to Behavior
 Our ability to infer behavioral pathways as they form in embryogenesis can yield information about how and why behavioral circuits form in development. To see the value of this information, we can recall Tinbergen’s four questions with respect to an organismal trait: what is its structure, what is its function, how did it get there in development, and how did it get there in evolution (Bateson and Laland, 2013). In this paper, we address three of these (structure, function, and development). Based on this analysis of C. elegans data, an order of origins can be proposed: developmental processes (cellular differentiation) generate structure (the birth of circuit components), which in turn leads to function (electrical connections between neurons and the generation of behaviors). To further support this hypothesis, structures such as muscle autonomously generate behaviors prior to innervation by axonal connections. We will now review such behavioral transitions to demonstrate how structure comes before function.
