@@ -61,7 +61,7 @@ The ion channel AVR-15 has an important role in C. elegans motor function and be
 For the 280 minute connectome, there are five terminally-differentiated neurons: RMEV (born at 265 minutes), and two symmetric pairs of neurons (ADFL/R and AWBL/R). Since the latter four neurons are bilateral pairs, each set share functions and thus ion channel associations. The ChannelWorm database shows three ion channel-protein associations for ADFL and ADFR: OCR-2, MGL-3, and KVS-1. OCR-2 is a transient receptor potential channel (TRPV) protein that regulates serotonin in chemosensory and olfactory functions (Sokolchik, 2005), MGL-3 is a building block in G-protein coupled receptors for Glutamate (Hobert, 2005), and KVS-1 protein expression is involved in building voltage-gated potassium channel complexes that are associated with a variety of functions (Uniprot Consortium, 2019). 
 
 <p align="center">
-  <img width="334" height="277" src="https://github.com/devoworm/Raising-the-Worm-Brain/blob/master/Figures/Figure-2.png"><BR>
+  <img width="480" height="576" src="https://github.com/devoworm/Raising-the-Worm-Brain/blob/master/Figures/Figure-3-timeline.png"><BR>
   <b>Figure 2.</b> Timeline that shows major events in <i>C. elegans</i> embryogenesis from fertilization (0 minutes) to hatch from the egg (800 minutes). Click to enlarge.
 </p>
   
@@ -78,7 +78,7 @@ One cell pair that emerge at 300 minutes post-fertilization is AWCL/R. These are
 In terms of setting up a functional circuit, AWCL/R olfactory neurons work cooperatively with AIBL/R and AIYL/R interneurons to form an adaptive unit that responds to food and odorants (Chalasani et.al, 2007). In both larvae and adults, AWCL/R cells can inhibit AIYL/R cells via glutamate-gated chloride channels. The presentation of an olfactory stimulus can act to override this inhibition of AIYL/R cells. From our terminal differentiation temporal data, we can see that while AIBL/R and AWCL/R are born at 300 minutes, the AIYL/R interneuron does not appear until our 400 minutes sampling time. Whether these functional differences are influenced by these differences in birth times is not known.
 
 <p align="center">
-  <img width="480" height="576" src="https://github.com/devoworm/Raising-the-Worm-Brain/blob/master/Figures/Figure-3-timeline.png"><BR>
+  <img width="334" height="277" src="https://github.com/devoworm/Raising-the-Worm-Brain/blob/master/Figures/Figure-2.png"><BR>
   <b>Figure 3.</b> Distribution of cell types (based on families in Alicea et.al, 2019) born at 290 minutes. Click to enlarge.
 </p>
 
