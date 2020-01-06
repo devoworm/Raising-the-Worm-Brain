@@ -41,9 +41,11 @@ An annotated collection of terminally-differentiated cell function was used as a
 #### First-mover Model Repository
 All notes, figures, and code associated with the first-mover model are located in a Github repository (https://github.com/devoworm/Raising-the-Worm- Brain).
 
-__VisCello.__ To discover further relationships between gene expression and ion channel expression in individual cells, we utilized the VisCello database (Packer et.al, 2019) which can be explored using a standalone app downloadable from Github (https://github.com/qinzhu/VisCello.celegans) or interactively via Shiny app (https://cello.shinyapps.io/celegans_explorer/). Plots produced using VisCello are produced using the UMAP (Uniform Manifold Approximation and Projection) method (https://umap-learn.readthedocs.io/en/latest/how_umap_works.html), which maps data points to a two-dimensional manifold (McInnes et.al, 2018). A form of dimensionality reduction that relies upon Topological Data Analysis, UMAP preserves global structure in the data, and uses graphical separation between related points to describe this structure.
+#### VisCello
+To discover further relationships between gene expression and ion channel expression in individual cells, we utilized the VisCello database (Packer et.al, 2019) which can be explored using a standalone app downloadable from Github (https://github.com/qinzhu/VisCello.celegans) or interactively via Shiny app (https://cello.shinyapps.io/celegans_explorer/). Plots produced using VisCello are produced using the UMAP (Uniform Manifold Approximation and Projection) method (https://umap-learn.readthedocs.io/en/latest/how_umap_works.html), which maps data points to a two-dimensional manifold (McInnes et.al, 2018). A form of dimensionality reduction that relies upon Topological Data Analysis, UMAP preserves global structure in the data, and uses graphical separation between related points to describe this structure.
 
-__WormBase.__ Supplemental information about protein expression and cells of interest are retrieved from WormBase Version:WS273 (https://www.wormbase.org/). WormBase (Harris et.al, 2019) is a C. elegans community resource that allows us to map between specific adult cells.
+#### WormBase
+Supplemental information about protein expression and cells of interest are retrieved from WormBase Version:WS273 (https://www.wormbase.org/). WormBase (Harris et.al, 2019) is a _C. elegans_ community resource that allows us to map between specific adult cells.
 
 ### Results
 This analysis will proceed by walking through the developmental connectome as it exists at five points during embryogenesis: 265, 280, 290, 300, and 400 minutes post-fertilization. These networks are defined in Alicea (2018), and are derived from information regarding the birth time of terminally-differentiation neurons rather than direct observations of connectivity. In addition to cells that are connected by common time of birth, subnetworks defined in the literature in terms of physiological function (particularly the NSY-5 subnetwork) will be analyzed. Figure 2 contains a timeline that shows major events of embryonic development in context. 
@@ -59,7 +61,7 @@ The ion channel AVR-15 has an important role in C. elegans motor function and be
 For the 280 minute connectome, there are five terminally-differentiated neurons: RMEV (born at 265 minutes), and two symmetric pairs of neurons (ADFL/R and AWBL/R). Since the latter four neurons are bilateral pairs, each set share functions and thus ion channel associations. The ChannelWorm database shows three ion channel-protein associations for ADFL and ADFR: OCR-2, MGL-3, and KVS-1. OCR-2 is a transient receptor potential channel (TRPV) protein that regulates serotonin in chemosensory and olfactory functions (Sokolchik, 2005), MGL-3 is a building block in G-protein coupled receptors for Glutamate (Hobert, 2005), and KVS-1 protein expression is involved in building voltage-gated potassium channel complexes that are associated with a variety of functions (Uniprot Consortium, 2019). 
 
 <p align="center">
-  <img width="256" height="227" src=""><BR>
+  <img width="334" height="277" src="https://github.com/devoworm/Raising-the-Worm-Brain/blob/master/Figures/Figure-2.png"><BR>
   <b>Figure 2.</b> Timeline that shows major events in <i>C. elegans</i> embryogenesis from fertilization (0 minutes) to hatch from the egg (800 minutes).
 </p>
   
@@ -76,7 +78,7 @@ One cell pair that emerge at 300 minutes post-fertilization is AWCL/R. These are
 In terms of setting up a functional circuit, AWCL/R olfactory neurons work cooperatively with AIBL/R and AIYL/R interneurons to form an adaptive unit that responds to food and odorants (Chalasani et.al, 2007). In both larvae and adults, AWCL/R cells can inhibit AIYL/R cells via glutamate-gated chloride channels. The presentation of an olfactory stimulus can act to override this inhibition of AIYL/R cells. From our terminal differentiation temporal data, we can see that while AIBL/R and AWCL/R are born at 300 minutes, the AIYL/R interneuron does not appear until our 400 minutes sampling time. Whether these functional differences are influenced by these differences in birth times is not known.
 
 <p align="center">
-  <img width="256" height="227" src=""><BR>
+  <img width="480" height="1076" src="https://github.com/devoworm/Raising-the-Worm-Brain/blob/master/Figures/Figure-3-timeline.png"><BR>
   <b>Figure 3.</b> Distribution of cell types (based on families in Alicea et.al, 2019) born at 290 minutes.
 </p>
 
@@ -96,7 +98,8 @@ Before moving on to the origins of functional subnetworks, let us examine the de
 Due to a number of functional attributes, the innexin-dependent NSY-5 network is worth examining in more detail. As opposed to our time-threshold networks, neurons included in this network are defined by their expression of NSY-5 (Chuang et.al, 2007). The first neurons in this network appear at 280 minutes, and continue to appear until after 400 minutes post-fertilization. At least one set of neurons in this network (AWCL/R, or Amphid Wing C cells) are influenced by calcium influx through voltage-gated calcium channels (Hseih et.al 2014). In particular, the NSY-5 network is required for left/right gene expression asymmetry in AWC neurons. Overall, this network consists mainly of cells associated with Amphid Sheath and Neuropil, or function as Interneurons and Sensory Neurons. While the left-right asymmetry of cell differentiation is somewhat uncommon (about 1/3rd of all terminally-differentiatied cells) in _C. elegans_, functional asymmetry for properties such as gene expression is much more common (Hobert et.al, 2002). Among AWC neurons, functional asymmetry is much more common than birth asymmetry, which is greater than 50 minutes in only two pairs of NSY-5 cells (ASHL/R and PVQL/R). By comparison, symmetric induction of NSY-5 in AWC neurons occurs 150 minutes after their birth time, which is well after birth time but still falls within pre-hatch development (Taylor et.al, 2010). 
 
 <p align="center">
-  <img width="256" height="227" src=""><BR>
+  <img width="400" height="400" src="https://github.com/devoworm/Raising-the-Worm-Brain/blob/master/Figures/Figure%204A.png"><BR>
+  <img width="400" height="400" src="https://github.com/devoworm/Raising-the-Worm-Brain/blob/master/Figures/Figure%204B.png"><BR>
   <b>Figure 4.</b> Developmental cells born at 250 minutes that contribute to all future cell types and tissues (A) and neurons and glia (B) more specifically. v1 and v2 represent the dimensions of a two-dimensional projection of the source data. Distance on these manifolds are defined by single-cell transcriptional profiling of all cells.
 </p>
   
@@ -121,7 +124,9 @@ In the case of potassium channel subnetworks, criticality in embryogenetic conne
 The first mover model describes neurons that emerge and connect in an expanding network (see Figure 5). Each cell is born at a certain time point in development with a pre-programmed set of ion channels with endogenous expression (without any cues external to the cell). In this example, cells that are born first control the expression of cells that are born later upon connection with one another by serving as an input to the endogenous activity. A pair of neurons connected in this way is called an intrinsic circuit. Each intrinsic circuit can be modeled as a sequential game that can be modeled using an extensive form representation (e.g. decision tree). In this instance, a single move is a connection between two cells, initiated by the first mover. An example of this is shown in Figure 5B, where four moves are ordered sequentially. The cell born at 280 minutes makes two sequential moves, followed by a move made by a cell born at 300 minutes (and connected to during the first move). This defines the structure within which subsequent moves will be made.
 
 <p align="center">
-  <img width="256" height="227" src=""><BR>
+  <img width="480" height="270" src="https://github.com/devoworm/Raising-the-Worm-Brain/blob/master/Figures/Figure%205A.png"><BR>
+  <img width="480" height="270" src="https://github.com/devoworm/Raising-the-Worm-Brain/blob/master/Figures/Figure%205B.png"><BR>
+  <img width="480" height="270" src="https://github.com/devoworm/Raising-the-Worm-Brain/blob/master/Figures/Figure%205C.png"><BR>
   <b>Figure 5.</b> Schematic of first-mover dynamics. A: a simple relationship between endogenous processes and inputs, B: a potential first-mover strategy for intrinsic circuits (time of birth in hypothetical minutes), C: transformation from circles (that constitute networks) to boxes.
 </p>
   
