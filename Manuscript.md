@@ -22,7 +22,7 @@ Even though _C. elegans_ has a deterministic developmental trajectory with respe
 
 <p align="center">
   <img width="455" height="300" src="https://github.com/devoworm/Raising-the-Worm-Brain/blob/master/Figures/Figure-1.png"><BR>
-  <b>Figure 1.</b> Developmental precursors to the first connectome cells to terminally-differentiate in the embryo. Data are arranged as a histogram with bins of size 8. Red, Orange, and Gray bars are bins of particular interest to our sampling scheme. Click tp enlarge.
+  <b>Figure 1.</b> Developmental precursors to the first connectome cells to terminally-differentiate in the embryo. Data are arranged as a histogram with bins of size 8. Red, Orange, and Gray bars are bins of particular interest to our sampling scheme. Click to enlarge.
 </p>
   
 The aggregate measure shown in Figure 1 is consistent with the finding that cellular specialization is coordinated with rounds of cell division, although this does not result from a specific cell division-related mechanism (Alberts et.al, 2002). In conceptually separating the functional networks from structural networks, we find that different neuronal properties can provide alternate views of the developing connectome. For example, transcription factors define _C. elegans_ neurons more distinctly than the 118 neuron classes defined by 118 neurons classes based on anatomical and synaptic connectivity (Hobert, 2016). Nevertheless, we do see that the first few neurons and major expansion in the number of neurons occur immediately after the first two bursts of developmental cell proliferation.
@@ -55,14 +55,14 @@ For each timepoint, the newly terminally-differentiated neurons are defined and 
 #### Ion channels for cells present at 265 minutes
 At 265 minutes, we have one asymmetric cell that emerges: RMEV. According to the ChannelWorm database, there is only one associated ion channel (AVR-15). RMEV is a ring motor neuron, and does not have a bilateral partner. A search of RMEV in WormBase reveals expression of two nervous system-associated genes: ntr-2 and msi-1. While neither of these explicitly code for ion channels, both genes are confirmed to exhibit generic nervous system function. ntr-2 is expressed in both ADL sensory neurons and RMED, and is associated with G-protein coupled receptor activity. By contrast, msi-1 is known to be expressed in adult AVA and AFD neurons. 
   
-The ion channel AVR-15 has an important role in C. elegans motor function and behavior. AVR-15 is a glutamate-gated chloride channel subunit (Dent, 1997), and avr-15 genetic mutants are known to lack neurotransmission by the M3 motor neuron, which controls the pharyngeal muscle (Avery, 1993). According to Gendrel et.al (2016), both RMEV and M3 form part of the GABAergic nervous system in C. elegans, which constitutes nearly half of the adult C. elegans connectome. 
+The ion channel AVR-15 has an important role in C. elegans motor function and behavior. AVR-15 is a glutamate-gated chloride channel subunit (Dent, 1997), and avr-15 genetic mutants are known to lack neurotransmission by the M3 motor neuron, which controls the pharyngeal muscle (Avery, 1993). According to Gendrel et.al (2016), both RMEV and M3 form part of the GABAergic nervous system in _C. elegans_, which constitutes nearly half of the adult _C. elegans_ connectome. 
 
 #### Ion channels for cells present at 280 minutes
 For the 280 minute connectome, there are five terminally-differentiated neurons: RMEV (born at 265 minutes), and two symmetric pairs of neurons (ADFL/R and AWBL/R). Since the latter four neurons are bilateral pairs, each set share functions and thus ion channel associations. The ChannelWorm database shows three ion channel-protein associations for ADFL and ADFR: OCR-2, MGL-3, and KVS-1. OCR-2 is a transient receptor potential channel (TRPV) protein that regulates serotonin in chemosensory and olfactory functions (Sokolchik, 2005), MGL-3 is a building block in G-protein coupled receptors for Glutamate (Hobert, 2005), and KVS-1 protein expression is involved in building voltage-gated potassium channel complexes that are associated with a variety of functions (Uniprot Consortium, 2019). 
 
 <p align="center">
   <img width="334" height="277" src="https://github.com/devoworm/Raising-the-Worm-Brain/blob/master/Figures/Figure-2.png"><BR>
-  <b>Figure 2.</b> Timeline that shows major events in <i>C. elegans</i> embryogenesis from fertilization (0 minutes) to hatch from the egg (800 minutes). Click tp enlarge.
+  <b>Figure 2.</b> Timeline that shows major events in <i>C. elegans</i> embryogenesis from fertilization (0 minutes) to hatch from the egg (800 minutes). Click to enlarge.
 </p>
   
 ADFL and ADFR have been identified as chemosensory sheath cells that detect volatile compounds (Bargmann, 2006). Looking back at Figure 2, this represents the emergence of components in a functional circuit well before there any environmental or activity-dependent signals to shape their fate. As harbingers of neuronal function, AWBL and AWBL are also important for their role in the NSY-5 network. NSY-5, a protein resulting from expression of the inx-19 gene, forms a gap junction network during embryogenesis with 32 other cells in the nervous system (Chuang et.al, 2007). About half of these cells share the same lineage, and the NSY-5 network as a whole is required for stochastic, asymmetric gene expression (Alqadah et.al, 2016). Aside from the potential importance of this subnetwork for regulation of the developmental connectome, WormBase associates inx-19 expression is associated with calcium channel inhibition.  
@@ -79,7 +79,7 @@ In terms of setting up a functional circuit, AWCL/R olfactory neurons work coope
 
 <p align="center">
   <img width="480" height="576" src="https://github.com/devoworm/Raising-the-Worm-Brain/blob/master/Figures/Figure-3-timeline.png"><BR>
-  <b>Figure 3.</b> Distribution of cell types (based on families in Alicea et.al, 2019) born at 290 minutes. Click tp enlarge.
+  <b>Figure 3.</b> Distribution of cell types (based on families in Alicea et.al, 2019) born at 290 minutes. Click to enlarge.
 </p>
 
 #### Ion channels for cells present at 400 minutes
@@ -117,7 +117,7 @@ Before moving on to the origins of functional subnetworks, let us examine the de
 <p align="center">
   <img width="400" height="400" src="https://github.com/devoworm/Raising-the-Worm-Brain/blob/master/Figures/Figure%204A.png"><BR>
   <img width="400" height="400" src="https://github.com/devoworm/Raising-the-Worm-Brain/blob/master/Figures/Figure%204B.png"><BR>
-  <b>Figure 4.</b> Developmental cells born at 250 minutes that contribute to all future cell types and tissues (A) and neurons and glia (B) more specifically. v1 and v2 represent the dimensions of a two-dimensional projection of the source data. Distance on these manifolds are defined by single-cell transcriptional profiling of all cells. Click tp enlarge.
+  <b>Figure 4.</b> Developmental cells born at 250 minutes that contribute to all future cell types and tissues (A) and neurons and glia (B) more specifically. v1 and v2 represent the dimensions of a two-dimensional projection of the source data. Distance on these manifolds are defined by single-cell transcriptional profiling of all cells. Click to enlarge.
 </p>
 
 #### Timing of NSY-5 subnetwork
@@ -147,7 +147,7 @@ The first mover model describes neurons that emerge and connect in an expanding 
   <img width="480" height="270" src="https://github.com/devoworm/Raising-the-Worm-Brain/blob/master/Figures/Figure%205A.png"><BR>
   <img width="480" height="270" src="https://github.com/devoworm/Raising-the-Worm-Brain/blob/master/Figures/Figure%205B.png"><BR>
   <img width="480" height="270" src="https://github.com/devoworm/Raising-the-Worm-Brain/blob/master/Figures/Figure%205C.png"><BR>
-  <b>Figure 5.</b> Schematic of first-mover dynamics. A: a simple relationship between endogenous processes and inputs, B: a potential first-mover strategy for intrinsic circuits (time of birth in hypothetical minutes), C: transformation from circles (that constitute networks) to boxes. Click tp enlarge.
+  <b>Figure 5.</b> Schematic of first-mover dynamics. A: a simple relationship between endogenous processes and inputs, B: a potential first-mover strategy for intrinsic circuits (time of birth in hypothetical minutes), C: transformation from circles (that constitute networks) to boxes. Click to enlarge.
 </p>
   
 In a sequential game, initial moves and their associated payoffs provide context for endogenous behavior in newly-connected cells. This allows neurons to be reorganized in terms of function rather than anatomical structure. Over time, as newer cells are integrated into the network, subsequent moves further constrain the function of the intrinsic circuit until all cells are connected. However, new inputs from older cells can disrupt this first-mover advantage by re-establishing the role of each cell in the new circuit.
@@ -166,7 +166,7 @@ There are several limitations of this approach. The first limitation is the use 
 #### Broader Implications
 There are several broader implications to this work. The first is to flesh out a model of explicit steps in relation to the development process and with respect to an emerging connectome. The second involves informing developmental models of nervous system function. Mapping ion channel and electrical function onto connectome architectures is useful for modeling function during the formation of the connectome. This provides a basis for understanding the emergence of specific behaviors and behavioral circuits. 
 
-As the _C. elegans_ connectome is considered analytically tractable, we hope that the extraction and analysis of neuronal populations at different points in embryonic development can be applied to other small connectomes (<1000 neurons). The polycheate (Windoffer & Westheide, 1988; Hochberg, 2009) and the larval tunicate Ciona intestinalis (Bezares-Calderon & Jekely, 2016; Ryan et.al, 2016) are two such examples. The tunicate model is especially interesting, as it provides an opportunity to study asymmetry. Yet we also see how the emergence of behaviors are context-specific, as swimming in _C. intestinalis_ (Zegal et.al, 2006) emerges in a way that is fundamentally different from behaviors such as pharyngeal pumping in _C. elegans_.
+As the _C. elegans_ connectome is considered analytically tractable, we hope that the extraction and analysis of neuronal populations at different points in embryonic development can be applied to other small connectomes (<1000 neurons). The polycheate (Windoffer & Westheide, 1988; Hochberg, 2009) and the larval tunicate _Ciona intestinalis_ (Bezares-Calderon & Jekely, 2016; Ryan et.al, 2016) are two such examples. The tunicate model is especially interesting, as it provides an opportunity to study asymmetry. Yet we also see how the emergence of behaviors are context-specific, as swimming in _C. intestinalis_ (Zegal et.al, 2006) emerges in a way that is fundamentally different from behaviors such as pharyngeal pumping in _C. elegans_.
 
 #### Development and Neuronal Criticality
 Considering neuronal criticality more broadly, Towlson et.al (2013) have defined rich club neurons in the adult phenotype as highly-connected neurons and serving a special functional role due to their ability to connect different modules. One question for future research is whether or not the rich club originates from the rules of preferential attachment (Barabasi & Albert, 1999), or if their functional attributes make them prone to being highly-connected. As they tend to be born between 290 and 350 minutes of development (Alicea, 2019), birth order is not the preferential criterion for this functional role. In any case, we can observe the signature of a small-world network (Watts & Strogatz, 1998) in both the _C. elegans_ and _C. intestinalis_ larval connectomes (Bezares-Calderon & Jekely, 2016). This suggests whatever interactions are determining critical structure is common across developing small connectomes.
