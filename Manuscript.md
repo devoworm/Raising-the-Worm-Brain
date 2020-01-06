@@ -21,7 +21,7 @@ The _C. elegans_ model also allows us to look at developmental cell lineages (Su
 Even though _C. elegans_ has a deterministic developmental trajectory with respect to cell lineage and identity, this potential relationship is not straightforward. _C. elegans_ neurons undergo a multipotency-to-commitment transition (MCT), in which neuronal cells are born from a diverse developmental cell lineage that also gives rise to muscle and epithelial cells (Rothman and Jarriault, 2019). This may provide a basis for great electrophysiological diversity across cells in very distinct subcircuits relevant to behavior. As we will see, there is a difference between functional asymmetry and cell lineage asymmetry which is partially driven by the expression and function of ion channels.
 
 <p align="center">
-  <img width="256" height="227" src=""><BR>
+  <img width="455" height="300" src="https://github.com/devoworm/Raising-the-Worm-Brain/blob/master/Figures/Figure-1.png"><BR>
   <b>Figure 1.</b> Developmental precursors to the first connectome cells to terminally-differentiate in the embryo. Data are arranged as a histogram with bins of size 8. Red, Orange, and Gray bars are bins of particular interest to our sampling scheme.
 </p>
   
