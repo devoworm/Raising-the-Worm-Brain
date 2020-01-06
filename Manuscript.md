@@ -22,7 +22,7 @@ Even though _C. elegans_ has a deterministic developmental trajectory with respe
 
 <p align="center">
   <img width="455" height="300" src="https://github.com/devoworm/Raising-the-Worm-Brain/blob/master/Figures/Figure-1.png"><BR>
-  <b>Figure 1.</b> Developmental precursors to the first connectome cells to terminally-differentiate in the embryo. Data are arranged as a histogram with bins of size 8. Red, Orange, and Gray bars are bins of particular interest to our sampling scheme.
+  <b>Figure 1.</b> Developmental precursors to the first connectome cells to terminally-differentiate in the embryo. Data are arranged as a histogram with bins of size 8. Red, Orange, and Gray bars are bins of particular interest to our sampling scheme. Click tp enlarge.
 </p>
   
 The aggregate measure shown in Figure 1 is consistent with the finding that cellular specialization is coordinated with rounds of cell division, although this does not result from a specific cell division-related mechanism (Alberts et.al, 2002). In conceptually separating the functional networks from structural networks, we find that different neuronal properties can provide alternate views of the developing connectome. For example, transcription factors define _C. elegans_ neurons more distinctly than the 118 neuron classes defined by 118 neurons classes based on anatomical and synaptic connectivity (Hobert, 2016). Nevertheless, we do see that the first few neurons and major expansion in the number of neurons occur immediately after the first two bursts of developmental cell proliferation.
@@ -62,7 +62,7 @@ For the 280 minute connectome, there are five terminally-differentiated neurons:
 
 <p align="center">
   <img width="334" height="277" src="https://github.com/devoworm/Raising-the-Worm-Brain/blob/master/Figures/Figure-2.png"><BR>
-  <b>Figure 2.</b> Timeline that shows major events in <i>C. elegans</i> embryogenesis from fertilization (0 minutes) to hatch from the egg (800 minutes).
+  <b>Figure 2.</b> Timeline that shows major events in <i>C. elegans</i> embryogenesis from fertilization (0 minutes) to hatch from the egg (800 minutes). Click tp enlarge.
 </p>
   
 ADFL and ADFR have been identified as chemosensory sheath cells that detect volatile compounds (Bargmann, 2006). Looking back at Figure 2, this represents the emergence of components in a functional circuit well before there any environmental or activity-dependent signals to shape their fate. As harbingers of neuronal function, AWBL and AWBL are also important for their role in the NSY-5 network. NSY-5, a protein resulting from expression of the inx-19 gene, forms a gap junction network during embryogenesis with 32 other cells in the nervous system (Chuang et.al, 2007). About half of these cells share the same lineage, and the NSY-5 network as a whole is required for stochastic, asymmetric gene expression (Alqadah et.al, 2016). Aside from the potential importance of this subnetwork for regulation of the developmental connectome, WormBase associates inx-19 expression is associated with calcium channel inhibition.  
@@ -79,7 +79,7 @@ In terms of setting up a functional circuit, AWCL/R olfactory neurons work coope
 
 <p align="center">
   <img width="480" height="576" src="https://github.com/devoworm/Raising-the-Worm-Brain/blob/master/Figures/Figure-3-timeline.png"><BR>
-  <b>Figure 3.</b> Distribution of cell types (based on families in Alicea et.al, 2019) born at 290 minutes.
+  <b>Figure 3.</b> Distribution of cell types (based on families in Alicea et.al, 2019) born at 290 minutes. Click tp enlarge.
 </p>
 
 #### Ion channels for cells present at 400 minutes
@@ -117,7 +117,7 @@ Before moving on to the origins of functional subnetworks, let us examine the de
 <p align="center">
   <img width="400" height="400" src="https://github.com/devoworm/Raising-the-Worm-Brain/blob/master/Figures/Figure%204A.png"><BR>
   <img width="400" height="400" src="https://github.com/devoworm/Raising-the-Worm-Brain/blob/master/Figures/Figure%204B.png"><BR>
-  <b>Figure 4.</b> Developmental cells born at 250 minutes that contribute to all future cell types and tissues (A) and neurons and glia (B) more specifically. v1 and v2 represent the dimensions of a two-dimensional projection of the source data. Distance on these manifolds are defined by single-cell transcriptional profiling of all cells.
+  <b>Figure 4.</b> Developmental cells born at 250 minutes that contribute to all future cell types and tissues (A) and neurons and glia (B) more specifically. v1 and v2 represent the dimensions of a two-dimensional projection of the source data. Distance on these manifolds are defined by single-cell transcriptional profiling of all cells. Click tp enlarge.
 </p>
 
 #### Timing of NSY-5 subnetwork
@@ -147,7 +147,7 @@ The first mover model describes neurons that emerge and connect in an expanding 
   <img width="480" height="270" src="https://github.com/devoworm/Raising-the-Worm-Brain/blob/master/Figures/Figure%205A.png"><BR>
   <img width="480" height="270" src="https://github.com/devoworm/Raising-the-Worm-Brain/blob/master/Figures/Figure%205B.png"><BR>
   <img width="480" height="270" src="https://github.com/devoworm/Raising-the-Worm-Brain/blob/master/Figures/Figure%205C.png"><BR>
-  <b>Figure 5.</b> Schematic of first-mover dynamics. A: a simple relationship between endogenous processes and inputs, B: a potential first-mover strategy for intrinsic circuits (time of birth in hypothetical minutes), C: transformation from circles (that constitute networks) to boxes.
+  <b>Figure 5.</b> Schematic of first-mover dynamics. A: a simple relationship between endogenous processes and inputs, B: a potential first-mover strategy for intrinsic circuits (time of birth in hypothetical minutes), C: transformation from circles (that constitute networks) to boxes. Click tp enlarge.
 </p>
   
 In a sequential game, initial moves and their associated payoffs provide context for endogenous behavior in newly-connected cells. This allows neurons to be reorganized in terms of function rather than anatomical structure. Over time, as newer cells are integrated into the network, subsequent moves further constrain the function of the intrinsic circuit until all cells are connected. However, new inputs from older cells can disrupt this first-mover advantage by re-establishing the role of each cell in the new circuit.
