@@ -78,7 +78,7 @@ One cell pair that emerge at 300 minutes post-fertilization is AWCL/R. These are
 In terms of setting up a functional circuit, AWCL/R olfactory neurons work cooperatively with AIBL/R and AIYL/R interneurons to form an adaptive unit that responds to food and odorants (Chalasani et.al, 2007). In both larvae and adults, AWCL/R cells can inhibit AIYL/R cells via glutamate-gated chloride channels. The presentation of an olfactory stimulus can act to override this inhibition of AIYL/R cells. From our terminal differentiation temporal data, we can see that while AIBL/R and AWCL/R are born at 300 minutes, the AIYL/R interneuron does not appear until our 400 minutes sampling time. Whether these functional differences are influenced by these differences in birth times is not known.
 
 <p align="center">
-  <img width="480" height="1076" src="https://github.com/devoworm/Raising-the-Worm-Brain/blob/master/Figures/Figure-3-timeline.png"><BR>
+  <img width="480" height="576" src="https://github.com/devoworm/Raising-the-Worm-Brain/blob/master/Figures/Figure-3-timeline.png"><BR>
   <b>Figure 3.</b> Distribution of cell types (based on families in Alicea et.al, 2019) born at 290 minutes.
 </p>
 
