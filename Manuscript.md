@@ -43,6 +43,11 @@ Supplemental information about protein expression and cells of interest are retr
 #### Utilities for first-mover model
 Employing a series of strategies over time results in a payoff for each cell that is semi-independent of its specific set of preferred strategies. The payoffs determine the costs and benefits of what it means to be a first-mover, a subsequent-mover, or a random mover. Our estimated components of utility can be defined as follows: FREQ represents empirically-observed frequencies in development, M represents an estimate of the molecular milieu), and N represents an estimate of the neurophysiological milieu. This can be estimated in a context-dependent manner, while the formulation is shown for the C. elegans connectome in Table 1.
 
+   | First-mover | Subsequent-Mover | Random |
+------------|-------------|------------------|--------|
+First-mover |      -      | FREQ * (M + N)   | FREQ * 0.5 |
+
+
 <p align="center">
 Table 1. Payoff matrix for a presynaptic cell that makes a connection with another cell in the nervous system.
 </p>
