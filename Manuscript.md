@@ -237,8 +237,6 @@ Androwski, R.J., Flatt, K.M., & Schroeder, N.E. (2017). Phenotypic plasticity an
 
 Ardiel, E.L., Kumar, A., Marbach, J., Christensen, R., Gupta, R., Duncan, W., Daniels, J.S., Stuurman, N., Colon-Ramos, D., & Shroff, H. (2017). Visualizing calcium flux in freely moving nematode embryos. _Biophysical Journal_, 112, 1975–1983.
 
-Avery L. (1993). Motor neuron M3 controls pharyngeal muscle relaxation timing in _Caenorhabditis elegans_. _Journal of Experimental Biology_, 175, 283-297.
-
 Avery, L., & Horvitz, H.R. (1989). Pharyngeal pumping continues after laser killing of the pharyngeal nervous system of _C. elegans_. _Neuron_, 3, 473–485.
 
 Azevedo, R.B.R. & Leroi, A.M. (2001). A power law for cells. _PNAS_, 98(10), 5699–5704.
@@ -247,15 +245,19 @@ Barabasi, D.L. & Barabasi, A-L. (2020). A Genetic Model of the Connectome. _Neur
 
 Barabasi, A-L. & Albert, R. (1999). Emergence of scaling in random networks. _Science_, 286(5439), 509–512.
 
-Bargmann, C.I. (2006). Chemosensation in C. elegans, WormBook. The _C. elegans_ Research Community (eds). _WormBook_, doi/10.1895/wormbook.1.123.1. 
+Bargmann, C.I. (2006). Chemosensation in _C. elegans_, WormBook. The _C. elegans_ Research Community (eds). _WormBook_, doi/10.1895/wormbook.1.123.1. 
 
 Bateson, P. & Laland, K.N. (2013). Tinbergen’s four questions: an appreciation and an update. _Trends in Ecology and Evolution_, 28(12), 712-718.
+
+Bell, M., Perera, S., Piraveenan, M., Bliemer, M., Latty, T., & Reid, C. (2017). Network growth models: a behavioural basis for attachment proportional to fitness. _Scientific Reports_, 7, 42431.
 
 Berck, M.E., Khandelwal, A., Claus, L., Hernandez-Nunez, L., Si, G., Tabone, C.J., Li, F., Truman, J.W., Fetter, R.D., Louis, M., Samuel, A.D., & Cardona, A. (2016). The wiring diagram of a glomerular olfactory system. _eLife_, 13, 5.
 
 Betzel, R.F., Avena-Koenigsberger, A., Goni, J., He, Y., de Reus, M.A., Griffa, A., Vertes, P.E., Misic, B., Thiran, J-P., Hagmann, P., van den Heuvel, M., Zuo, X-N., Bullmore, E.T., & Sporns, O. (2016). Generative models of the human connectome. _Neuroimage_, 124(A), 1054–1064.
 
 Bezares-Calderon, L.A. & Jekely, G. (2016). Think small. _eLife_, 5, e22497. doi:10.7554/eLife.22497.
+
+Bhatla, N. (2011). _C. elegans_ Cell Lineage. Retrieved from http://wormweb.org/celllineage. Accessed on June 4, 2020. 
 
 Bhattacharya, A., Aghayeva, U., Berghoff, E.G., & Hobert, O. (2019). Plasticity of the electrical connectome of _C. elegans_. _Cell_, 176(5), 1174-1189. doi:10.1016/j.cell.2018.12.024. 
 
@@ -264,6 +266,8 @@ Bianconi, G., Barabasi, A.L. (2001). Competition and multiscaling in evolving ne
 Bozorgmehr, T., Ardiel, E.V., McEwan, A.H., & Rankin, C.H. (2013). Mechanisms of plasticity in a _Caenorhabditis elegans_ mechanosensory circuit. _Frontiers in Physiology_, 4, 88.
 
 Braitenburg, V. (1984). Vehicles: experiments in synthetic Psychology. MIT Press, Cambridge, MA.
+
+Campbell, J.C., Chin-Sang, I.D., and Bendena, W.G. (2015). Mechanosensation Circuitry in _Caenorhabditis elegans_: a focus on gentle touch. _Peptides_, 68, 164-174.
 
 Cao, M., Huang, H., Peng, Y., Dong, Q., & He, Y. (2016). Toward Developmental Connectomics of the Human Brain. _Frontiers in Neuroanatomy_, 10, 25. doi:10.3389/fnana.2016.00025.
 
@@ -281,15 +285,15 @@ Cook, S.J., Jarrell, T.A., Brittin, C.A., Wang, Y., Bloniarz, A.E., Yakovlev, M.
 
 Cussat-Blanc, S., Harrington, K., & Banzhaf, W. (2019). Artificial Gene Regulatory Networks: a review. _Artificial Life_, 24(4), 296-328.
 
-Dent, J.A. (1997). _avr-15_ encodes a chloride channel subunit that mediates inhibitory glutamatergic neurotransmission and ivermectin sensitivity in Caenorhabditis elegans. _EMBO Journal_, 16(19), 5867–5879.
+deSolla Price, D.J. (1965). Networks of Scientific Papers. _Science_, 149, 510–515.
 
-Dvoretskii, S., Gong, Z., Gupta, A., Parent, J., & Alicea, B. (2020). Braitenberg Vehicles as developmental neurosimulation. _In Progress_.
+Dvoretskii, S., Gong, Z., Gupta, A., Parent, J., & Alicea, B. (2020). Braitenberg Vehicles as developmental neurosimulation. _bioRxiv_, 2003.07689.
 
 Eichler, K., Li, F., Litwin-Kumar, A., Park, Y., Andrade, I., Schneider-Mizell, C.M., Saumweber, T., Huser, A., Eschbach, C., Gerber, B., Fetter, R.D., Truman, J.W., Priebe, C.E., Abbott, L.F., Thum, A.S., Zlatic, M., & Cardona, A. (2017). The complete connectome of a learning and memory centre in an insect brain. _Nature_, 548(7666), 175-182.
 
-Faumont, S., Boulin, T., Hobert, O., & Lockery, S.R. (2006). Developmental regulation of whole cell capacitance and membrane current in identified interneurons in _C. elegans_. _Journal of Neurophysiology_, 95(6), 3665-3373. 
-
 Fox, R.M., Von Stetina, S.E., Barlow, S.J., Shaffer, C., Olszewski, K.L., Moore, J.H., Dupuy, D., Vidal, M., & Miller, D.M. (2005). A gene expression fingerprint of _C. elegans_ embryonic motor neurons. _BMC Genomics_, 6, 42.
+
+Gallos, L.K., Havlin, S., Stanley, E., & Fefferman, N.H. (2019). Propinquity drives the emergence of network structure and density. _PNAS_, 116(41), 20360–20365. doi:10.1073/pnas.1900219116
 
 Gao, J., Barzel, B., & Barabasi, A-L. (2016). Universal resilience patterns in complex networks. _Nature_, 530, 307-312.
 
@@ -305,6 +309,8 @@ Hamblin, S. (2012). On the practical usage of genetic algorithms in ecology and 
 
 Harris, T.W. Arnaboldi, V., Cain, S., Chan, J., Chen, W.J., Cho, J., Davis, P., Gao, S., Grove, C., Kishore, R., Lee, R.Y.N., Muller, H-M., Nakamura, C., Nuin, P., Paulini, M., Raciti, D., Rodgers, F., Russell, M., Schindelman, G., Van Auken, K., Wang, Q., Williams, G., Wright, A., Yook, K., Howe, K., Schedl, T., Stein, L., & Sternberg, P.W. (2019). WormBase: a modern model organism information resource. _Nucleic Acids Research_, gkz920, doi:10.1093/nar/gkz920.
 
+Hilgetag, C.C. & Goulas, A. (2016). Is the brain really a small-world network? Brain Structure and Function, 221, 2361–2366.
+
 Hobert, O., Glenwinkel, L., & White, J. (2016). Revisiting Neuronal Cell Type Classification in _Caenorhabditis elegans_. _Current Biology_, 26(22), R1197-R1203. 
 
 Hobert O. (2016a). Terminal Selectors of Neuronal Identity. _Current Topics in Developmental Biology_, 116, 455-475. doi: 10.1016/bs.ctdb.2015.12.007. 
@@ -319,11 +325,11 @@ Hoyle, G. (1984). The scope of neuroethology. _Behavioral and Brain Sciences_, 7
 
 Hsieh, Y.W., Alqadah, A., & Chuang, C.F. (2014). Asymmetric neural development in the _Caenorhabditis elegans_ olfactory system. _Genesis_, 52(6), 544-554. doi:10.1002/dvg.22744.
 
-Jin, Y. & Qi, Y.B. (2018). Building stereotypic connectivity: mechanistic insights into structural plasticity from _C. elegans_. _Current Opinion in Neurobiology_, 48, 97–105.
-
-Jorgensen, E.M. & Mango, S.E. (2002). The art and design of genetic screens: _Caenorhabditis elegans_. _Nature Reviews Genetics_, 3(5), 356-369.
+Johnston, R.J. and Desplan, C. (2008). Stochastic neuronal cell fate choices. _Current Opinion in Neurobiology_, 18(1), 20–27.
 
 Kaiser, M. (2017). Mechanisms of connectome development. _Trends in Cognitive Science_, 21(9), 703-717.
+
+Khajezade, M., Goliaei, S., & Velsi, H. (2019). A game-theoretical network formation model for _C. elegans_ neural network. _Frontiers in Computational Neuroscience_, 13, 45. doi:10.3389/fncom.2019.00045.
 
 Kim, S., Kim, H., Kralik, J.D., & Jeong, J. (2016). Vulnerability-Based Critical Neurons, Synapses, and Pathways in the _Caenorhabditis elegans_ Connectome. _PLoS Computational Biology_, 12(8), e1005084. doi:10.1371/journal.pcbi.1005084. 
 
@@ -331,11 +337,13 @@ Ko, H., Cossell, L., Baragli, C., Antolik, J., Clopath, C., Hofer, S.B., & Mrsic
 
 Kratsios, P., Pinan-Lucarre, B., Kerk, S-Y., Weinreb, A., Bessereau, J-L., & Hobert, O. (2015). Transcriptional coordination of synaptogenesis and neurotransmitter signaling. _Current Biology_, 25(10), 1282–1295.
 
+Maguire, S.M., Clark, C.M., Nunnari, J., Pirri, J.K., and Alkema, J. (2011). The C. elegans Touch Response Facilitates Escape from Predacious Fungi. _Current Biology_, 21(15), 1326-1330.
+
 Mellem, J.E., Brockie, P.J., Madsen, D.M., and Maricq, A.V. (2008). Action Potentials Contribute to Neuronal Signaling in _C. elegans_. _Nature Neuroscience_, 11(8), 865–867. doi:10.1038/nn.2131.
 
-McInnes, L., Healy, J., & Melville, J. (2018). UMAP: Uniform Manifold Approximation and Projection for Dimension Reduction. _arXiv_, 1802.03426.
-
 Morck, C., Axang, C., & Pilona, M. (2003). A genetic analysis of axon guidance in the _C. elegans_ pharynx. _Developmental Biology_, 260(1), 158-175.
+
+Morton, J. (1986). Developmental Contingency Modelling A framework for discussing the processes of change and the consequence of deficiency. _Advances in Psychology_, 36, 141-165.
 
 Narayanan, D.Z. & Ghazanfar, A.A. (2014). Developmental Neuroscience: how twitches make sense. _Current Biology_, 24(19), R971-R972.
 
@@ -345,11 +353,13 @@ Oren-Suissa, M., Bayer, E.A., & Hobert, O. (2016). Sex-specific pruning of neuro
 
 Packer, J.S., Zhu, Q., Huynh, C., Sivaramakrishnan, P., Preston, E., Dueck, H., Stefanik, D., Tan, K., Trapnell, C., Kim, J., Waterston, R.H., & Murray, J.I. (2019). A lineage-resolved molecular atlas of _C. elegans_ embryogenesis at single cell resolution. _Science_, 365(6459), doi:10.1126/science.aax1971.
 
+Pathak, A., Chatterjee, N., & Sinha, S. (2020). Developmental trajectory of Caenorhabditis elegans nervous system governs its structural organization. _PLoS Computational Biology_, 16(1), e1007602. doi:10.1371/journal.pcbi.1007602
+
 Pereira, L., Kratsios, P., Serrano-Saiz, E., Sheftel, H., Mayo, A.E., Hall D.H., White, J.G., LeBoeuf, B., Garcia, L.R., Alon, U., & Hobert, O. (2015). A cellular and regulatory map of the cholinergic nervous system of _C. elegans_. _eLife_, 4, e12432. doi:10.7554/eLife.12432.
 
-Picken-Bahrey, H.L. & Moody, W.J. (2003). Early Development of Voltage-Gated Ion Currents and Firing Properties in Neurons of the Mouse Cerebral Cortex. _Journal of Neurophysiology_, 89, 1761-1773.
-
 Pilon, M. & Morck, C. (2005). Development of _Caenorhabditis elegans_ pharynx, with emphasis on its nervous system. Acta Pharmacologica Sinica, 26(4), 396–404.
+
+Pirri, J.K. and Alkema, M.J. (2012). The Neuroethology of _C. elegans_ Escape. _Current Opinion in Neurobiology_, 22(2), 187–193.
 
 Portereiko, M.F. & Mango, S.E. (2001). Early morphogenesis of the _Caenorhabditis elegans_ pharynx. _Developmental Biology_, 233, 482–494.
 
@@ -361,21 +371,23 @@ Rutenberg, J., Cheng, S.M., & Levin, M. (2002). Early embryonic expression of io
 
 Ryan, K., Lu1, Z., & Meinertzhagen, I.A. (2016). The CNS connectome of a tadpole larva of _Ciona intestinalis (L.)_ highlights sidedness in the brain of a chordate sibling. _eLife_, 5, e16962. doi:10.7554/eLife.16962.
 
-Salkoff, L., Wei, A.D., Baban, B., Butler, A., Fawcett, G., Ferreira, G., & Santi, C.M. (2005). Potassium channels in C. elegans (December 30), WormBook, ed. The C. elegans Research Community, WormBook, doi/10.1895/wormbook.1.42.1, http://www.wormbook.org.
-
 Sarma, G.P., Lee, C-W., Portegys, T., Ghayoomie, V., Jacobs, T., Alicea, B., Cantarelli, M., Currie, M., Gerkin, R.C., Gingell, S., Gleeson, P., Gordon, R., Hasani, R.M., Idili, G., Khayrulin, S., Lung, D., Palyanov, A., Watts, M., & Larson, S.D. (2018). OpenWorm: overview and recent advances in integrative biological simulation of Caenorhabditis elegans. Philosophical Transactions of the Royal Society B, 373, 20170382. doi:10.1098/rstb.2017.0382.
 
 Schafer, W.R. (2005). Deciphering the neural and molecular mechanisms of _C. elegans_ behavior. _Current Biology_, 15(17), R723–R729. doi:10.1016/j.cub.2005.08.020.
 
-Sengupta, P. & Bargmann, C.I. (1996). Cell fate specification and differentiation in the nervous system of _Caenorhabditis elegans_. Developmental Genetics, 18(1), 73-80.
+Schumacher, J.A., Hsieh, Y-W., Chen, S., Pirri, J.K., Alkema, M.J., Li, W-H., Chang, C., & Chuang, C-F. (2012). Intercellular calcium signaling in a gap junction-coupled cell network establishes asymmetric neuronal fates in _C. elegans_. _Development_, 139, 4191-4201.
+
+Sengupta, P. & Bargmann, C.I. (1996). Cell fate specification and differentiation in the nervous system of _Caenorhabditis elegans_. _Developmental Genetics_, 18(1), 73-80.
 
 Simaan, M. & Cruz, J.B. (1973). On the Stackelberg Strategy in Nonzero-Sum Games. _Journal of Optimization Theory and Applications_, 11(5), 533–555.
 
-Sokolchik, I., Tanabe, T., Baldi, P.F., & Sze, J.Y. (2005). Polymodal sensory function of the _Caenorhabditis elegans_ OCR-2 channel arises from distinct intrinsic determinants within the protein and is selectively conserved in mammalian TRPV proteins. _Journal of Neuroscience_, 25(4), 1015-1023.
+Stone, R., Portegys, T., Mikhailovsky, G., & Alicea, B. (2018). Origins of the Embryo: self-organization through cybernetic regulation. _BioSystems_, 173, 73-82. doi:10.1016/j.biosystems.2018.08.005
 
 Sulston, J.E., Schierenberg, E., White J.G., & Thomson, J.N. (1983). The embryonic cell lineage of the nematode _Caenorhabditis elegans_. _Developmental Biology_, 100, 64-119. 
 
 Sulston, J.E. & Horvitz, H.R. (1977). Postembryonic cell lineages of the nematode _Caenorhabditis elegans_. _Developmental Biology_, 56, 110-156. 
+
+Szalkai, B., Varga, B., & Grolmusz, V. (2017). The Robustness and the Doubly-Preferential Attachment Simulation of the Consensus Connectome Dynamics of the Human Brain. _Scientific Reports_, 7, 16118.
 
 Takagi, K. (2017). A distribution model of functional connectome based on criticality and energy constraints. _PLoS One_, 12(5), e0177446.
 
@@ -383,17 +395,21 @@ Taylor, R.W., Hsieh, Y-W., Gamse, J.T., & Chuang, C-F. (2010). Making a differen
 
 Towlson E.K., Vertes, P.E., Ahnert, S.E., Schafer, W.R., & Bullmore, E.T. (2013). The rich club of the _C. elegans_ neuronal connectome. _Journal of Neuroscience_, 33(15), 6380-6387. doi: 10.1523/JNEUROSCI.3784-12.2013.
 
-UniProt Consortium (2019). UniProt: a worldwide hub of protein knowledge. _Nucleic Acids Research_, 47, D506-515. https://www.uniprot.org/uniprot/Q7JPF0
-
 Usuyama, M., Ushida, C., & Shingai, R. (2012). A Model of the Intracellular Response of an Olfactory Neuron in _Caenorhabditis elegans_ to Odor Stimulation. _PLoS One_, 7(8), e42907. doi:10.1371/journal.pone.0042907.
 
 Varier, S. & Kaiser, M. (2011). Neural Development Features: spatio-temporal development of the _Caenorhabditis elegans_ neuronal Network. _PLoS Computational Biology_, l7(1), e1001044. doi:10.1371/journal.pcbi.1001044
 
 Varshney, L.R., Chen, B.L., Paniagua, E., Hall, D.H., & Chklovskii, D.B. (2011). Structural properties of the _Caenorhabditis elegans_ neuronal network. _PLoS Computational Biology_, 7(2), e1001066. doi:10.1371/journal.pcbi.1001066
 
+Vogelstein, J.T., Bridgeford, E.W., Pedigo, B.D., Chung, J., Levin, K., Mensh, B., & Priebe, C.E. (2019). Connectal Coding: discovering the structures linking cognitive phenotypes to individual histories. _Current Opinion in Neurobiology_, 55, 199-212.
+
 Walker, D.S., Chew, Y.L., & Schafer, W.R. (2018). Genetics of Behavior in _C. elegans_. In "The Oxford Handbook of Invertebrate Neurobiology". J.H. Byrne ed., pgs. 1-38. Oxford University Press, Oxford, UK. doi:10.1093/oxfordhb/9780190456757.013.
 
+Watts, D.J. & Strogatz, S.H. (1998). Collective dynamics of ‘small-world’ networks. _Nature_, 393, 440–442.
+
 Windoffer, R. & Westheide, W. (1988). The Nervous System of the Male Dinophilus gyrociliatus (Polychaeta, Dinophilidae):11. Electron Microscopical Reconstruction of Nervous Anatomy and Effector Cells. _The Journal of Comparative Neurology_, 272, 475-488.
+
+Witvliet, D., Mulcahy, B., Mitchell, J.K., Meirovitch, Y., Berger, D.R., Wu, Y., Liu, Y., Koh, W-X., Parvathala, R., Holmyard, D., Schalek, R.L., Shavit, N., Chisholm, A.D., Lichtman, J.W., Samuel, D.T., & Zhen, M. (2020). Connectomes across development reveal principles of brain maturation in _C. elegans_. _bioRxiv_, doi:10.1101/2020.04.30.066209.
 
 White, J.G., Southgate, E., Thomson, J.N., & Brenner, S. (1986). The structure of the nervous system of the nematode _Caenorhabditis elegans_. _Philosophical Transactions of the Royal Society B_, 314(1165), 1-340. doi:10.1098/rstb.1986.0056.
 
@@ -403,8 +419,6 @@ Wu, Y., Ghitani, A., Christensen, R., Santella, A., Du, Z., Rondeau, G., Bao, Z.
 
 Zega, G., Thorndyke, M.C., & Brown, E.R. (2006). Development of swimming behaviour in the larva of the ascidian Ciona intestinalis. _The Journal of Experimental Biology_, 209, 3405-3412.
 
+Zhao, B., Khare, P., Feldman, L., and Dent, J.A. (2003). Reversal Frequency in _Caenorhabditis elegans_ Represents an Integrated Response to the State of the Animal and Its Environment. _Journal of Neuroscience_, 23(12), 5319-5328. 
+
 Zheng, C. & Chalfie, M. (2016). Securing Neuronal Cell Fate in _C. elegans_. _Current Topics in Developmental Biology_, 116, 167-180. doi:10.1016/bs.ctdb.2015.11.011.
-
-
-
-
