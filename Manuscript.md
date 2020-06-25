@@ -47,6 +47,7 @@ Employing a series of strategies over time results in a payoff for each cell tha
 <p align="center">
 Table 1. Payoff matrix for a presynaptic cell that makes a connection with another cell in the nervous system.
 </p>
+
 |                 | First-mover         | Subsequent-Mover |   Random   |
 |-----------------|---------------------|------------------|------------|
 |First-mover      |      -              | FREQ * (M + N)   | FREQ * 0.5 |
@@ -86,6 +87,7 @@ A total of 87 new neurons differentiate between the 300 and 400 minute sampling 
 <p align="center">
 Table 2. Terminally-differentiated neurons present at 400 minutes of development versus 300 minutes of development. Cell family classifications are used, and a distribution across cell families is provided.
 </p>
+
 |Cell  | Family	Number   |
 |------|-----------------|
 | AF   |     	2        |
@@ -146,6 +148,7 @@ __Observed strategies.__ We will now walk through the various strategies cells e
 <p align="center">
 Table 3. Frequency of different first-mover strategies among cells in developing _C. elegans_ connectome. Transient, development, and stable are the proportion of synaptic types for cells that exhibit a particular strategy.
 </p>
+
 |                 | Frequency of strategies in population  | Transient | Developmental | Stable  |
 |-----------------|----------------------------------------|-----------|---------------|---------|
 |N-P coupling     |                 41.5%                  |    38%    |       36%     |    43%  |
