@@ -47,11 +47,11 @@ Employing a series of strategies over time results in a payoff for each cell tha
 <p align="center">
 Table 1. Payoff matrix for a presynaptic cell that makes a connection with another cell in the nervous system.
 </p>
-                 | First-mover         | Subsequent-Mover |   Random   |
------------------|---------------------|------------------|------------|
-First-mover      |      -              | FREQ * (M + N)   | FREQ * 0.5 |
-Subsequent-Mover |  1 - FREQ * (M + N) |        -         | FREQ / 0.5 |
-Random           |     FREQ * 0.5      |    FREQ / 0.5    |      -     |
+|                 | First-mover         | Subsequent-Mover |   Random   |
+|-----------------|---------------------|------------------|------------|
+|First-mover      |      -              | FREQ * (M + N)   | FREQ * 0.5 |
+|Subsequent-Mover |  1 - FREQ * (M + N) |        -         | FREQ / 0.5 |
+|Random           |     FREQ * 0.5      |    FREQ / 0.5    |      -     |
 
 ### Results
 The first part of this analysis will proceed by walking through the progression of developmental events in two orthogonal ways. One characterization involves looking at temporal progression. Our inquiry begins before the differentiation of neuronal cells, and the proto-connectome as it exists at five points during embryogenesis (265, 280, 290, 300, and 400 minutes post-fertilization). These networks are defined in Alicea (2018), where the progression of connectogenesis is defined indirectly in terms of cells present. The second characterization involves characterizing molecular properties and events associated with the terminally differentiated neurons. Some of these features (ion channels and gene expression patterns) are not explicitly related to the developmental process, but do allow us to think about the adult connectome as a developmentally contingent structure. Other features, such as the NSY-5 subnetwork, will be analyzed more directly in terms of developmental mechanisms. Such subnetworks are defined by their molecular properties, and have implications for the emergence of large-scale developmental patterns such as functional asymmetry. The second part of the analysis will introduce a first-mover model to understand the sequential behaviors of individual neuronal cell identities that underlie electrical wiring and the establishment of behaviors in the larval and adult worm.
@@ -86,30 +86,30 @@ A total of 87 new neurons differentiate between the 300 and 400 minute sampling 
 <p align="center">
 Table 2. Terminally-differentiated neurons present at 400 minutes of development versus 300 minutes of development. Cell family classifications are used, and a distribution across cell families is provided.
 </p>
-Cell  | Family	Number |
-------|----------------|
-  AF  |     	2        |
-  AI  |     	6        |
-  AL  |     	1        |
-  AS  |     	10       |
-  AU  |      	2        |   
-  AV	|       14       |
-  AW  |     	2        |
- CEP  |     	3        |
-  DV  |     	3        |
- IL1  |     	4        |
- IL2  |     	1        |
-  LU	|       2        |
- OLQ  |     	2        |
-  PD  |	      1        |
-  PH	|       2        |
-  PV  |     	5        |
-  RI  |     	9        |
-  RM	|       7        |
-  SI  |     	1        |
-  SM  |	      4        |
-  UR  |     	6        |
- 
+|Cell  | Family	Number   |
+|------|-----------------|
+| AF   |     	2        |
+|  AI  |     	6        |
+|  AL  |     	1        |
+|  AS  |     	10       |
+|  AU  |      	2        |   
+|  AV  |       14        |
+|  AW  |     	2        |
+| CEP  |     	3        |
+|  DV  |     	3        |
+| IL1  |     	4        |
+| IL2  |     	1        |
+|  LU  |       2         |
+| OLQ  |     	2        |
+|  PD  |	1        |
+|  PH  |       2         |
+|  PV  |     	5        |
+|  RI  |     	9        |
+|  RM  |       7         |
+|  SI  |     	1        |
+|  SM  |	4        |
+|  UR  |     	6        |
+
 __Connectogenesis post-400 minutes.__ There are a number of organismal level developmental events that occur after the 400-minute mark that are relevant to neuronal function. The 400 minute mark defines the beginning of the comma stage of development, where the head becomes thicker than the body and elongates correspondingly (Christensen et.al, 2015). Approximately 450 minutes post-fertilization (see Figure 3) marks the first evidence of axonal outgrowth (Morck et.al, 2003; Taylor et.al, 2010). From this time until hatching of the egg (800 minutes; Sulston et.al, 1983), we observe the onset of asymmetric gene expression in symmetric pairs of neurons. This is exemplified in neurons constituting the NSY-5 network (Hobert et.al, 2002; Taylor et.al, 2010). There is also an increasing asymmetry of phenotype outside of the connectome, as the hypodermis, muscle syncytium, and intestines all begin to take shape. This period between the embryonic neuronal birth and the onset of connectome-related behavior is an interesting period of time which will be discussed later in the paper.
 
 __Timing of NSY-5 subnetwork.__ Due to a number of functional attributes, the innexin-dependent NSY-5 network is worth examining in more detail. There are 28 left/right pairs of cells in this network: ADA, ADF, ADL, AFD, AIM, AIZ, ASH, ASI, ASK, AWB, AWC, BAG, and RIC. The NSY-5 network exhibits stochastic differentiation (Johnston and Desplan, 2008), which decouples the identity of developmental lineages from the transcriptional activity of terminally-differentiated cells (Packer et.al, 2019). As opposed to our time-threshold networks, neurons included in this network are defined by their expression of NSY-5 (Chuang et.al, 2007). The first neurons in this network appear at 280 minutes, and continue to appear until after 400 minutes post-fertilization. At least one set of neurons in this network (AWCL/R, or Amphid Wing C cells) are influenced by calcium influx through voltage-gated calcium channels (Hseih et.al 2014). In particular, the NSY-5 network is required for left/right gene expression asymmetry in AWC neurons. 
@@ -133,7 +133,7 @@ To make these data relevant to formal strategies, we make two assumptions about 
 __Observed strategies.__ We will now walk through the various strategies cells employ during synaptogenesis, in addition to the consequences of these strategies. First-mover dynamics are based on scenarios where all players (in this case cells) have imperfect information. There are two types of strategy: pure and mixed. Pure strategies are those that do not overlap with other strategies, while mixed strategies are those that overlap with other strategies. The consequences and broader implications of each strategy are shown in Figure 5, while the prevalence and outcomes of all strategies extracted from the data are shown in Table 3. By separating the developmental birth time data into positive and negative components for both presynaptic and postsynaptic partners, we have identified five strategies.
 
 <p align="center">
-  <img width="400" height="400" src="https://github.com/devoworm/Raising-the-Worm-Brain/blob/master/Figures/Figure-4.png"><BR>
+  <img width="491" height="274" src="https://github.com/devoworm/Raising-the-Worm-Brain/blob/master/Figures/Figure-4.png"><BR>
   <b>Figure 4.</b> Distribution of synaptic relationships (for three different functional states) in terms of the difference in birth time between pre and postsynaptic cells. Negative values represent relationships where the presynaptic cell is born first in embryogenesis, while positive values represent relationships where presynaptic cells are born after the postsynaptic partner. Click to enlarge.
 </p>
 
@@ -146,13 +146,13 @@ __Observed strategies.__ We will now walk through the various strategies cells e
 <p align="center">
 Table 3. Frequency of different first-mover strategies among cells in developing _C. elegans_ connectome. Transient, development, and stable are the proportion of synaptic types for cells that exhibit a particular strategy.
 </p>
-                 | Frequency of strategies in population  | Transient | Developmental | Stable  |
------------------|----------------------------------------|-----------|---------------|---------|
-N-P coupling     |                 41.5%                  |    38%    |       36%     |    43%  |
-XOR First Mover  |                  7.5%*                 |     8%    |       24%     |     6%  |
-XOR Second Mover |                 18.9%*                 |     8%    |       24%     |     8%  | 
-XNOR             |                 15.1%*                 |     17%   |       24%     |    13%  |
-P-N coupling     |                 45.3%                  |   86.2%   |     91.1%     |    85%  |
+|                 | Frequency of strategies in population  | Transient | Developmental | Stable  |
+|-----------------|----------------------------------------|-----------|---------------|---------|
+|N-P coupling     |                 41.5%                  |    38%    |       36%     |    43%  |
+|XOR First Mover  |                  7.5%*                 |     8%    |       24%     |     6%  |
+|XOR Second Mover |                 18.9%*                 |     8%    |       24%     |     8%  | 
+|XNOR             |                 15.1%*                 |     17%   |       24%     |    13%  |
+|P-N coupling     |                 45.3%                  |   86.2%   |     91.1%     |    85%  |
 * overlap with N-P coupling category.
 
 4) Exclusive NOR (XNOR). In our sample, this strategy is exhibited around 20% of connections. This can either be co-deployed with N-P coupling, or be deployed independently of N-P coupling. Like the XOR strategies, XNOR strategies are mixed, and include only those connections where the presynaptic cell is born first and the postsynaptic cell is born second.
@@ -162,7 +162,7 @@ P-N coupling     |                 45.3%                  |   86.2%   |     91.1
 Aside from identifying specific strategies, we can also identify cells that employ these strategies. The N-P strategy is exhibited by the following cells: ADF, ASI, AUA, AVA, AVB, AVD, AVE, DVA, DVC, IL2D, IL2L/R, IL2V, PVP, PVR, RIA, RIB, RIG, RIH, RIR, URB, URYD, and URYV. It is of note that the N-P strategy overlaps with the XOR and XNOR strategies. Cells exhibiting the XOR First-mover strategy include: ALM, BDU, DVC, and IL2D. The XOR Second-mover strategy is exhibited by the following cells: AVA, AVB, AVD, AVE, AWB, BAG, IL2L/R, RIA, URYD, and URYV. Cells exhibiting the XNOR strategy include: ADF, ASI, DVA, IL2V, PVR, PVT, SAAD, and SAAV.
 
 <p align="center">
-  <img width="400" height="400" src="https://github.com/devoworm/Raising-the-Worm-Brain/blob/master/Figures/Figure-5.png"><BR>
+  <img width="456" height="559" src="https://github.com/devoworm/Raising-the-Worm-Brain/blob/master/Figures/Figure-5.png"><BR>
   <b>Figure 5.</b> Figure 5. The five identified strategies used by _C. elegans_ neurons to establish electrical connectivity and synaptogenesis. Click to enlarge.
 </p>
   
